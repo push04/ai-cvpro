@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai-resume-analyzer
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn aicv2:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: OPENROUTER_API_KEY
+        value: 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
