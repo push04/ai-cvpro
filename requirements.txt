@@ -4,4 +4,3 @@ PyPDF2
 httpx
 jinja2
 xhtml2pdf
-lottie-web
